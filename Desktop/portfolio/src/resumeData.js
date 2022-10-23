@@ -1,5 +1,5 @@
 let resumeData = {
-    "imagebaseurl":"https://HYEBA.github.io/",
+    "imagebaseurl":"https://hyeba.github.io/",
     "name": "장혜진",
     "role": "프론트엔드 개발자",
     "roleDescription": "새로운 것을 배우고, 쉬지 않고 발전하기 위해 개발자의 꿈을 갖게 되었습니다",
@@ -15,7 +15,7 @@ let resumeData = {
     "aboutDescription":"html, css, javascript, node.js, mysql, nginX와 aws를 다루는 데 익숙하고, 기본적인 리눅스 명령어를 잘 숙지하고 있으며 React, three.js, canvas를 다룰 수 있습니다. 기본 웹 제작부터 배포까지 여러 번의 경험이 있고, 주요 성과는 블록체인 지갑 앱 랜딩페이지(단독 개발), 회사 어드민 페이지(단독 개발), 블록체인 지갑 앱, 회사 홈페이지 개발입니다",
     "email":"aslk3366zz@naver.com",
     "phone":"010-6332-2458",
-    "website":"https://HYEBA.github.io",
+    "website":"https://hyeba.github.io/portfolio",
     "education":[
       {
         "UniversityName":"한국산업기술대학교",
