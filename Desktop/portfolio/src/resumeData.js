@@ -1,5 +1,5 @@
 let resumeData = {
-    "imagebaseurl":"https://hyeba.github.io/",
+    "imagebaseurl":"https://hyeba.github.io/portfolio",
     "name": "장혜진",
     "role": "프론트엔드 개발자",
     "roleDescription": "새로운 것을 배우고, 쉬지 않고 발전하기 위해 개발자의 꿈을 갖게 되었습니다",
