@@ -7,13 +7,13 @@ export default class Porfolio extends Component {
       <div className="row">
         <div className="twelve columns collapsed">
           <h1>Check Out Some of My Works</h1>
-          <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
+          <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf portfolio-container">
           {
             resumeData.portfolio && resumeData.portfolio.map((item)=>{
               return(
-                <div className="columns portfolio-item">
+                <div className="portfolio-item">
                   <a href='javascript:void(0)'>
-                    <div className="item-wrap" onClick={() => window.open(`${item.url}`)}>
+                    <div className="portfolio-itemWrap item-wrap" onClick={() => window.open(`${item.url}`)}>
                         <img src={`${item.imgurl}`} className="item-img"/>
                         <div className="overlay">
                           <div className="portfolio-item-meta">
@@ -23,6 +23,13 @@ export default class Porfolio extends Component {
                         </div>
                     </div>
                   </a>
+                    <div className="portfolio_descriptionContainer">
+                        <h1>Project: {item.contentDescriotion}</h1>
+                        <p>{item.contentDescriotion2}</p>
+                        <p>{item.contentDescriotion3}</p>
+                        <p>{item.contentDescriotion4}</p>
+                        <p>{item.contentDescriotion5}</p>
+                    </div>
                 </div>
               )
             })
