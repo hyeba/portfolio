@@ -67,6 +67,10 @@ header .banner-text {
     width: 100%;
 }
 
+.banner-text > h3 {
+    word-break: keep-all;
+}
+
 header .banner-text h1 {
     font: 90px/1.1em 'opensans-bold', sans-serif;
     color: #fff;
@@ -251,6 +255,10 @@ ul#nav li.current a {
     width: 120px;
     height: 120px;
     border-radius: 100%;
+}
+
+.about_descriptionText {
+    word-break: keep-all;
 }
 
 #about .contact-details {
