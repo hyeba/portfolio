@@ -1290,7 +1290,6 @@ footer .social-links li:first-child {
     }
 
     #portfolio h1 {
-        font: 20px 'opensans-semibold', sans-serif;
         margin-bottom: 10px;
     }
 }
@@ -1313,6 +1312,6 @@ footer .social-links li:first-child {
 
 @media (min-width: 1200px) {
     #portfolio h1 {
-        font: 1.4vw 'opensans-semibold', sans-serif;
+        font: 1.2vw 'opensans-semibold', sans-serif;
     }
 }
