@@ -111,10 +111,6 @@
 
    //  });
 
-    $('.item-wrap a').on('click', () => {
-      alert('sfds');
-    })
-
     $(document).on('click', '.popup-modal-dismiss', function (e) {
     		e.preventDefault();
     		$.magnificPopup.close();
@@ -164,7 +160,7 @@
                $('#image-loader').fadeOut();
                $('#message-warning').hide();
                $('#contactForm').fadeOut();
-               $('#message-success').fadeIn();   
+               $('#message-success').fadeIn();
             }
             // There was an error
             else {
