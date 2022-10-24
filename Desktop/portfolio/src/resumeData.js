@@ -3,7 +3,7 @@ let resumeData = {
     "name": "장혜진",
     "role": "프론트엔드 개발자",
     "roleDescription": "새로운 것을 배우고, 쉬지 않고 발전하기 위해 개발자의 꿈을 갖게 되었습니다",
-    "roleDescription2": "더 많은 것을 배우고, 코딩하고 싶습니다",
+    "roleDescription2": "더 많은 것을 배우고 적용하며 코딩하고 싶습니다",
     "socialLinks": [
         {
             "name": "github",

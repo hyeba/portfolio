@@ -16,7 +16,7 @@ export default class About extends Component {
 
                <h2>About Me</h2>
                <p>{resumeData.aboutme}</p>
-               <p>{resumeData.aboutDescription}</p>
+               <p className="about_descriptionText">{resumeData.aboutDescription}</p>
 
                <div className="row">
 
