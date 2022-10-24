@@ -50,13 +50,16 @@ header:before {
     height: 100%;
 }
 
+.responsive-headline {
+    word-break: keep-all;
+}
+
 header .banner {
     display: inline-block;
     vertical-align: middle;
     margin: 0 auto;
     width: 85%;
     padding-bottom: 30px;
-    s
     text-align: center;
 }
 
