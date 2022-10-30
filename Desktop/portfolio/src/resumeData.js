@@ -75,6 +75,8 @@ let resumeData = {
             "contentDescriotion3": "UI 개발",
             "contentDescriotion4": "커스텀 키패드, Notice 모달, 애니메이션 개발",
             "contentDescriotion5": "UI 유지보수 담당",
+            "contentDescriotion6": "기여도: 50%",
+            "contentDescriotion7": "html, css, js, jquery, cordova",
         },
         {
             "name": "Guardee Landing Page",
@@ -86,6 +88,8 @@ let resumeData = {
             "contentDescriotion3": "UI 개발",
             "contentDescriotion4": "라이브러리 사용하여 스크롤 이벤트 적용",
             "contentDescriotion5": "전체 유지보수 담당",
+            "contentDescriotion6": "기여도: 100%",
+            "contentDescriotion7": "html, css, js, pageable",
         },
         {
             "name": "Artifriends",
@@ -97,6 +101,8 @@ let resumeData = {
             "contentDescriotion3": "애니메이션 적용하여 인터랙티브 효과 추가",
             "contentDescriotion4": "DB / API 개발",
             "contentDescriotion5": "전체 유지보수 담당",
+            "contentDescriotion6": "기여도: 30%",
+            "contentDescriotion7": "html, css, js, jquery",
         },
         {
             "name": "Artifriends Admin homepage",
@@ -107,6 +113,8 @@ let resumeData = {
             "contentDescriotion2": "UI 개발",
             "contentDescriotion3": "DB / API 개발",
             "contentDescriotion4": "전체 유지보수 담당",
+            "contentDescriotion5": "기여도: 100%",
+            "contentDescriotion6": "html, css, js, node.js, mysql",
         }
     ],
 }

@@ -14,7 +14,7 @@ export default class Porfolio extends Component {
                 <div className="portfolio-item">
                   <a href='javascript:void(0)'>
                     <div className="portfolio-itemWrap item-wrap" onClick={() => window.open(`${item.url}`)}>
-                        <img src={`${item.imgurl}`} className="item-img"/>
+                        <img src={`${item.imgurl}`} className="item-img portfolio-img"/>
                         <div className="overlay">
                           <div className="portfolio-item-meta">
                             <h5>{item.name}</h5>
@@ -29,6 +29,8 @@ export default class Porfolio extends Component {
                         <p>{item.contentDescriotion3}</p>
                         <p>{item.contentDescriotion4}</p>
                         <p>{item.contentDescriotion5}</p>
+                        <p>{item.contentDescriotion6}</p>
+                        <p>{item.contentDescriotion7}</p>
                     </div>
                 </div>
               )
