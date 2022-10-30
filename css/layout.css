@@ -570,6 +570,10 @@ ul#nav li.current a {
     width: 500px;
 }
 
+.portfolio-img {
+    min-height: 29vw;
+}
+
 .portfolio-item .item-wrap a {
     display: block;
     cursor: pointer;
