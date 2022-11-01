@@ -289,6 +289,17 @@ ul#nav li.current a {
     font-size: 20px;
 }
 
+.about_descriptionLink {
+    display: flex;
+    flex-direction: row;
+}
+
+.about_npm {
+    margin-left: 6px;
+    line-height: 25px;
+    color: rgb(161, 3, 3);
+    cursor: pointer;
+}
 
 /* ------------------------------------------------------------------ */
 /* d. Resume Section
@@ -536,7 +547,7 @@ ul#nav li.current a {
     text-transform: uppercase;
     letter-spacing: 1px;
     text-align: center;
-    margin-bottom: 48px;
+    margin-bottom: 30px;
     color: #0c1d1d;
     word-break: keep-all;
 }
@@ -567,11 +578,11 @@ ul#nav li.current a {
     -o-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    width: 500px;
+    width: 480px;
 }
 
 .portfolio-img {
-    min-height: 29vw;
+    min-height: 300px;
 }
 
 .portfolio-item .item-wrap a {
@@ -1294,7 +1305,7 @@ footer .social-links li:first-child {
     }
 
     #portfolio h1 {
-        font: 20px 'opensans-semibold', sans-serif;
+        font: 16px 'opensans-semibold', sans-serif;
     }
 }
 
@@ -1307,6 +1318,14 @@ footer .social-links li:first-child {
 
     #portfolio h1 {
         margin-bottom: 10px;
+    }
+
+    .about_descriptionLink {
+        flex-direction: column;
+    }
+
+    .about_npm {
+        margin: 0 0 8px 0;
     }
 }
 
