@@ -431,16 +431,16 @@ ul#nav li.current a {
     -webkit-animation: javascript 2s ease;
 }
 
-.jquery {
-    width: 60%;
-    -moz-animation: jquery 2s ease;
-    -webkit-animation: jquery 2s ease;
+.vue {
+    width: 70%;
+    -moz-animation: vue 2s ease;
+    -webkit-animation: vue 2s ease;
 }
 
-.react {
-    width: 50%;
-    -moz-animation: react 2s ease;
-    -webkit-animation: react 2s ease;
+.jquery {
+    width: 70%;
+    -moz-animation: jquery 2s ease;
+    -webkit-animation: jquery 2s ease;
 }
 
 @-moz-keyframes html {
@@ -470,7 +470,7 @@ ul#nav li.current a {
     }
 }
 
-@-moz-keyframes jquery {
+@-moz-keyframes vue {
     0% {
         width: 0px;
     }
@@ -479,12 +479,12 @@ ul#nav li.current a {
     }
 }
 
-@-moz-keyframes react {
+@-moz-keyframes jquery {
     0% {
         width: 0px;
     }
     100% {
-        width: 50%;
+        width: 70%;
     }
 }
 
@@ -515,21 +515,21 @@ ul#nav li.current a {
     }
 }
 
+@-webkit-keyframes vue {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 70%;
+    }
+}
+
 @-webkit-keyframes jquery {
     0% {
         width: 0px;
     }
     100% {
-        width: 60%;
-    }
-}
-
-@-webkit-keyframes react {
-    0% {
-        width: 0px;
-    }
-    100% {
-        width: 50%;
+        width: 70%;
     }
 }
 
